@@ -1,4 +1,3 @@
-form/tomcat.tf
 resource "google_compute_instance_template" "tomcat_template" {
   name          = "tomcat-template"
   machine_type  = "e2-medium"
